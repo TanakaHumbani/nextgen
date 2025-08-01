@@ -1,13 +1,15 @@
 /* NavBar.module.css */
 
 .navbar {
-  background-color: #6cce3a;
-  padding: 1rem 2rem;
+  background-color: #00674F;
+  padding: 2rem 2rem;
   display: flex;
   justify-content: flex-end;
   gap: 2.5rem;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  width: fit-width;
+
 }
 
 .navLink {

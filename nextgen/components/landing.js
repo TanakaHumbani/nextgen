@@ -1,44 +1,18 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 // import styles from "../src/app/page.module.css";
 import styles from "../styles/layout.module.css";
 
 
-const services = [
-  { name: "Construction materials", 
-    description: "" 
-    , image: ["/images/red-brick.jpg","/images/aggregates.jpg",]
-  },
-  {
-    name: "Electrical Products",
-    description: "",
-    image: ["/images/red-brick.jpg","/images/aggregates.jpg"]
-  },
-  { name: "Lubricants", 
-    description: "" ,
-    image: ["/images/red-brick.jpg","/images/aggregates.jpg"],
-  },
-  {
-    name: "Furnishings",
-    description: "",
-    image: ["/images/red-brick.jpg","/images/aggregates.jpg"]
-  },
-  {
-    name: "Tools and Hardware",
-    description: "",
-    image: ["/images/red-brick.jpg","/images/aggregates.jpg"]
-  },
-  {
-    name: "Solar Products",
-    description: "",
-    image: ["/images/aggregates.jpg","/images/aggregates.jpg"]
-  }
-]
+import { services } from "../data/services"; // Assuming services data is in this file
 
 
 export default function Landing() {
   const [count, setCount] = useState(0);
+  const router = useRouter();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -53,10 +27,16 @@ export default function Landing() {
     <div className={styles.landingWrapper}>
       <div className={styles.textSection}>
         <h1>{current.name}</h1>
-        <p>{current.description}</p>
+        {current.description.length > 0 && (
+          <p className="styles.descriptionList">
+            {current.description.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </p>
+        )}
         <button
           className={styles.exploreButton}
-          onClick={() => router.push(current.link || "/")}
+          onClick={() => router.push(current.link || "/all-products")}
         >
           Explore more
         </button>

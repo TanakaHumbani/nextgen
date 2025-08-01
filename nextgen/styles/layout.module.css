@@ -17,20 +17,25 @@
 }
 
 .textSection h1 {
-  font-size: 2.5rem;
+  font-size: 4.5rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
 .textSection p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   color: #444;
+}
+.textSection li {
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin-bottom: 0.2rem;
 }
 
 /* Explore button */
 .exploreButton {
-  background-color: #6cce3a;
+  background-color: #00674F;
   border: none;
   color: white;
   padding: 0.65rem 1.75rem;
@@ -56,20 +61,28 @@
 
 /* Individual slice container with angled clipping */
 .imageSlice {
-  width: 500px;
-  height: 1100px;
+  width: 400px;
+  height: 1000px;
   overflow: hidden;
   position: relative;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   flex-shrink: 0;
+  margin-left: -80px; /* overlap */
+  position: relative;
+  transition: transform 0.3s;
+  cursor: pointer;
   /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); 
   
   /* optional: same box-shadow or background */
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
-
+.imageSlice:hover {
+  transform: translateY(-15px);
+  z-index: 100;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
 /* Actual image styled as background */
 .imageContent {
   width: 100%;
@@ -77,4 +90,16 @@
   background-size: cover;
   background-position: center center;
   user-select: none;
+}
+.imageSlice:first-child {
+  margin-left: 0;
+  z-index: 10;
+}
+
+.imageSlice:nth-child(2) {
+  z-index: 20;
+}
+
+.imageSlice:nth-child(3) {
+  z-index: 30;
 }
