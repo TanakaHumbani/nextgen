@@ -1,15 +1,20 @@
 /* NavBar.module.css */
 
 .navbar {
-  background-color: #00674F;
+  /* background-color: #046307; */
+  background: #ffffff;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143, 1) 44%, rgba(4, 99, 7, 1) 100%);
   padding: 2rem 2rem;
   display: flex;
-  justify-content: flex-end;
-  gap: 2.5rem;
+  justify-content: space-between; /* Pushes logo left and nav right */
+  align-items: center;
   font-weight: 500;
   font-size: 1.5rem;
-  width: fit-width;
+}
 
+.navLinks {
+  display: flex;
+  gap: 2.5rem;
 }
 
 .navLink {
@@ -19,4 +24,10 @@
 
 .navLink:hover {
   text-decoration: underline;
+  color: #4df452;
+}
+
+.logo {
+  display: block;
+  padding: 0;
 }

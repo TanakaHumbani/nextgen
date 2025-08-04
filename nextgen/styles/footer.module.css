@@ -1,28 +1,82 @@
 .footer{
-    background-color: #00674F;
+    background-color: #046307;
     display: flex;
     /* height: auto; */
     padding: 2rem 0;
     /* color: white; */
     font-family: Arial, sans-serif;
     border-top: 1px solid grey;
+    color: white;
+    margin: 0;
+}
+.footer li{
+    list-style: none;
+    font-size: 1rem;
+    color: white;
+    padding: 0.2rem 0;
+    margin: 0;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+.socialIcons li {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.socialIcons a{
+    margin: 0;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline; 
 }
 
 .footerContent {
-    max-width: 1200px;
-    /* margin: 0 auto; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* align-items: center; */
-    height: 500px;
+    width: 100%;
 }
 .footerLinks {
+ 
+}
+.footerLink{
     display: flex;
-    gap: 2rem;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 150px;
 }
 .footerText{
     color: white;
     font-size: 1.2rem;
     margin-left: 30px;
+}
+.privacyPolicy {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.copy {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.careers{
+    display: flex;
+    flex-direction: column;
 }

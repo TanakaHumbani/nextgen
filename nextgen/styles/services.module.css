@@ -1,0 +1,102 @@
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+.servicesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.servicesWrapper h1{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #046307;
+}
+.firstPara {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #444;
+}
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.serviceCard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(4,99,7,0.08);
+  padding: 1.5rem 1rem;
+  min-width: 220px;
+  max-width: 260px;
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  transition: box-shadow 0.2s;
+}
+.serviceCard:hover {
+  box-shadow: 0 4px 16px rgba(4,99,7,0.18);
+}
+.serviceCard h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.serviceCard p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.serviceCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}  
+.servicesInnerWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 100px;
+} 
+.servicesInnerWrapper li{
+  list-style-type: none;
+  padding-left: 1.5rem;
+  margin-bottom: 0.2rem;
+  padding: 0;
+  margin-left: 0;
+  font-size: 1.5rem;
+  color: black;
+}
+.serviceName {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #046307;
+}
+.whatsappButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4rem 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.whatsappButton:hover {
+  background: #128c7e;
+  color: #fff;
+}

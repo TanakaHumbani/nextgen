@@ -20,12 +20,18 @@
   font-size: 4.5rem;
   margin-bottom: 1.5rem;
   font-weight: 500;
+  color: #00674F;
 }
-
+.descriptionList li{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: black;
+  padding: 3.5px;
+}
 .textSection p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: #444;
+  color: black;
 }
 .textSection li {
   list-style-type: none;
@@ -35,16 +41,19 @@
 
 /* Explore button */
 .exploreButton {
-  background-color: #00674F;
+  margin-top: 20px;
+  background-color: #046304;
   border: none;
   color: white;
   padding: 0.65rem 1.75rem;
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 2rem;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   user-select: none;
+  width: 300px;
+
 }
 
 .exploreButton:hover {
@@ -62,7 +71,7 @@
 /* Individual slice container with angled clipping */
 .imageSlice {
   width: 400px;
-  height: 1000px;
+  height: 950px;
   overflow: hidden;
   position: relative;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);

@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.aboutUsTitle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboutUsTitle h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 120px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+     font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #046307;
+    
+}
+.aboutUsTitle h2{
+    margin-left: 100px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1rem;
+     font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #046307;
+}
+.aboutUsTitle p{
+    margin-left: 100px;
+    /* margin-top: 100px; */
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding: 30px;
+    width: 1200px;
+}
+.aboutUsText {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.aboutUsSection p{
+    margin-bottom: 10rem;
+    line-height: 1.6;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    
+}
+.visionSection {
+    margin-top: 2rem;
+    text-align: center;
+    width:400px;
+    background-color: #046307;
+    height: 400px;
+    box-shadow: #333 0px 0px 10px;
+    border-radius: 10px;
+}
+
+.visionSection h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem; 
+    color: white; 
+}
+.visionSection p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.missionSection {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #046307;
+    width: 400px;
+    height: 400px;
+    box-shadow: #333 0px 0px 10px;
+    border-radius: 10px;
+}
+.missionSection h2 {
+    font-size: 2rem; 
+    color: white;  
+}
+.missionSection p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.valuesSection {
+    margin-top: 2rem;
+    text-align: center;
+    width: 400px;
+    background-color: #046307;
+    height: 400px;
+    box-shadow: #333 0px 0px 10px;
+    border-radius: 10px;
+}
+.valuesSection h2 { 
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: white;
+}
+.valuesSection li{
+    list-style: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 0;
+    margin: 0;
+}
+.valuesSection ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.aboutUsSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+.aboutUsLocation{
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    
+}
+.aboutUsLocation h1 {
+    font-size: 2rem;
+    /* font-weight: 500; */
+    margin-bottom: 1rem;
+    color: #046307;
+}
+.aboutUsLocation p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.teamSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 90px;
+}
+.teamSection h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #046307;
+     font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #046307;
+}
+.teamMembers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.teamMember img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
