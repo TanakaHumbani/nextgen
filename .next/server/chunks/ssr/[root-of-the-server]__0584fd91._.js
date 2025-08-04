@@ -780,7 +780,7 @@ function ContactUs() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("form", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$styles$2f$contact$2d$us$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].contactForm,
-                        action: "https://formsubmit.co/pasafemu@mailgolem.com",
+                        action: "https://formsubmit.co/tanaka.humbani@gmail.com",
                         method: "POST",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {

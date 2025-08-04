@@ -36,7 +36,7 @@ export default function ContactUs() {
         </div>
         <form
           className={styles.contactForm}
-          action="https://formsubmit.co/pasafemu@mailgolem.com" // Replace with your email
+          action="https://formsubmit.co/tanaka.humbani@gmail.com" // Replace with your email
           method="POST"
         >
           <div className={styles.inputGroup}>
