@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/tanakahumbani/Documents/GitHub/nextgen/nextgen/styles/NavBar.module.css"],"sourcesContent":["/* NavBar.module.css */\n\n.navbar {\n  background-color: #046307;\n  padding: 2rem 2rem;\n  display: flex;\n  justify-content: flex-end;\n  gap: 2.5rem;\n  font-weight: 500;\n  font-size: 1.5rem;\n  width: fit-width;\n\n}\n\n.navLink {\n  color: white;\n  text-decoration: none;\n}\n\n.navLink:hover {\n  text-decoration: underline;\n}"],"names":[],"mappings":"AAEA;;;;;;;;;;;AAYA;;;;;AAKA","debugId":null}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/tanakahumbani/Documents/GitHub/nextgen/nextgen/styles/footer.module.css"],"sourcesContent":[".footer{\n    background-color: #046307;\n    display: flex;\n    /* height: auto; */\n    padding: 2rem 0;\n    /* color: white; */\n    font-family: Arial, sans-serif;\n    border-top: 1px solid grey;\n}\n\n.footerContent {\n    max-width: 1200px;\n    /* margin: 0 auto; */\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    /* align-items: center; */\n    height: 500px;\n}\n.footerLinks {\n    display: flex;\n    gap: 2rem;\n}\n.footerText{\n    color: white;\n    font-size: 1.2rem;\n    margin-left: 30px;\n}"],"names":[],"mappings":"AAAA;;;;;;;;AAUA;;;;;;;;AASA;;;;;AAIA","debugId":null}}]
-}
