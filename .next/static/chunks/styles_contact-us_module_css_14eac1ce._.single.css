@@ -1,0 +1,77 @@
+/* [project]/styles/contact-us.module.css [client] (css) */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-us-module__OG_LhW__contactWrapper {
+  background: #fff;
+  border-radius: 12px;
+  max-width: 700px;
+  height: 70%;
+  margin: 3rem auto;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 2px 16px rgba(4, 99, 7, .08);
+}
+
+.contact-us-module__OG_LhW__contactTitle {
+  text-align: center;
+  color: #046307;
+  margin-bottom: 1.5rem;
+}
+
+.contact-us-module__OG_LhW__contactInfo {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-us-module__OG_LhW__contactForm {
+  flex-direction: column;
+  gap: 1.2rem;
+  display: flex;
+}
+
+.contact-us-module__OG_LhW__inputGroup {
+  flex-direction: column;
+  gap: .4rem;
+  display: flex;
+}
+
+.contact-us-module__OG_LhW__labelText {
+  color: #046307;
+  font-weight: 500;
+}
+
+.contact-us-module__OG_LhW__inputField, .contact-us-module__OG_LhW__textArea {
+  background: #f7f7f7;
+  border: 1px solid #b6e2c6;
+  border-radius: 6px;
+  padding: .7rem 1rem;
+  font-size: 1rem;
+  transition: border .2s;
+}
+
+.contact-us-module__OG_LhW__inputField:focus, .contact-us-module__OG_LhW__textArea:focus {
+  border: 1.5px solid #046307;
+  outline: none;
+}
+
+.contact-us-module__OG_LhW__submitButton {
+  color: #fff;
+  cursor: pointer;
+  background: #25d366;
+  border: none;
+  border-radius: 6px;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: background .2s;
+}
+
+.contact-us-module__OG_LhW__submitButton:hover {
+  background: #128c7e;
+}
+
+/*# sourceMappingURL=styles_contact-us_module_css_14eac1ce._.single.css.map*/

@@ -1,0 +1,32 @@
+/* [project]/styles/NavBar.module.css [client] (css) */
+.NavBar-module__Qc37tW__navbar {
+  background: linear-gradient(90deg, #fff 17%, #63db8f 44%, #046307 100%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.NavBar-module__Qc37tW__navLinks {
+  gap: 2.5rem;
+  display: flex;
+}
+
+.NavBar-module__Qc37tW__navLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.NavBar-module__Qc37tW__navLink:hover {
+  color: #4df452;
+  text-decoration: underline;
+}
+
+.NavBar-module__Qc37tW__logo {
+  padding: 0;
+  display: block;
+}
+
+/*# sourceMappingURL=styles_NavBar_module_css_14eac1ce._.single.css.map*/
