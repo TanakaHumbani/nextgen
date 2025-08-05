@@ -1,8 +1,10 @@
-/* body {
-    margin: 0;
-    padding: 0;
+:global(body) {
+  padding: 0;
+  margin: 0;
+}
+.aboutUsWrapper{
     font-family: Arial, sans-serif;
-} */
+}
 .aboutUsTitle{
     justify-content: center;
     align-items: center;

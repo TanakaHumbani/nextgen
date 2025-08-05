@@ -15,7 +15,8 @@ export default function ContactUs() {
 
   return (
     <>
-      <NavBar />
+      <div className={styles.contactUsWrapper}>
+        <NavBar />
       <div className={styles.contactWrapper}>
         <h1 className={styles.contactTitle}>Contact Us</h1>
         <div className={styles.contactInfo}>
@@ -80,6 +81,7 @@ export default function ContactUs() {
         </form>
       </div>
       <Footer />
+      </div>
     </>
   );
 }

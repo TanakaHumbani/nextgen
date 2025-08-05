@@ -6,7 +6,8 @@ import Footer from '../components/footer';
 export default function AboutUs() {
     return (
         <>
-            <NavBar />
+            <div className={styles.aboutUsWrapper}>
+                <NavBar />
 
             <div className={styles.aboutUsTitle}>
                 <h1>About Us</h1>
@@ -77,6 +78,8 @@ export default function AboutUs() {
             </div>
         
             <Footer />
+            </div>
+            
         </>
     );
 }
