@@ -1,5 +1,5 @@
 "use client";
-import 'normalize-css';
+// import 'normalize-css';
 import Image from 'next/image';
 import { products } from '../data/products';
 import styles from '../styles/all-products.module.css';

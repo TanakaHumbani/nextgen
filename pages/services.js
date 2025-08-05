@@ -1,5 +1,5 @@
 "use client";
-import 'normalize-css';
+// import 'normalize-css';
 import styles from '../styles/services.module.css';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
