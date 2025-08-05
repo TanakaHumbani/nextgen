@@ -8,6 +8,12 @@ export default function AboutUs() {
     return (
         <>
             <div className={styles.aboutUsWrapper}>
+                <style jsx global>{`
+              body {
+                margin: 0px;
+                padding: 0px;
+              }
+            `}</style>
                 <NavBar />
 
             <div className={styles.aboutUsTitle}>

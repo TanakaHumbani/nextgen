@@ -17,6 +17,12 @@ export default function ContactUs() {
   return (
     <>
       <div className={styles.contactUsWrapper}>
+        <style jsx global>{`
+              body {
+                margin: 0px;
+                padding: 0px;
+              }
+            `}</style>
         <NavBar />
       <div className={styles.contactWrapper}>
         <h1 className={styles.contactTitle}>Contact Us</h1>

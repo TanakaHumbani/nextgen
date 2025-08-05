@@ -26,6 +26,12 @@ export default function AllProducts() {
   return (
     <>
       <div className={styles.outerWrapper}>
+        <style jsx global>{`
+              body {
+                margin: 0px;
+                padding: 0px;
+              }
+            `}</style>
         <NavBar />
         <div className={styles.pageWrapper}>
           <h1>All Products</h1>
