@@ -1,5 +1,5 @@
 "use client";
-
+import 'normalize-css';
 import styles from '../styles/services.module.css';
 import NavBar from '../components/navbar';
 import Footer from '../components/footer';
@@ -7,6 +7,12 @@ import Footer from '../components/footer';
 export default function Services() {
     return (
         <div className={styles.servicesWrapper}>
+         <style jsx global>{`
+              body {
+                margin: 0px;
+                padding: 0px;
+              }
+            `}</style>
         <NavBar/>
         <h1>Our Services</h1>
         <p className={styles.firstPara}>Explore the wide range of services we offer to meet your construction needs.</p>
