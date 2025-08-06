@@ -14,11 +14,11 @@ export default function NavBar() {
       />
       
       <div className={styles.navLinks}>
-        <Link href="/" legacyBehavior><a className={styles.navLink}>Home</a></Link>
-        <Link href="/about-us" legacyBehavior><a className={styles.navLink}>About us</a></Link>
-        <Link href="/services" legacyBehavior><a className={styles.navLink}>Services</a></Link>
-        <Link href="/all-products" legacyBehavior><a className={styles.navLink}>Products</a></Link>
-        <Link href="/contact-us" legacyBehavior><a className={styles.navLink}>Contact Us</a></Link>
+        <Link href="/" className={styles.navLink}>Home</Link>
+        <Link href="/about-us" className={styles.navLink}>About us</Link>
+        <Link href="/services" className={styles.navLink}>Services</Link>
+        <Link href="/all-products" className={styles.navLink}>Products</Link>
+        <Link href="/contact-us" className={styles.navLink}>Contact Us</Link>
       </div>
     </nav>
   );

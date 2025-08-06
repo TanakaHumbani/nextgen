@@ -4,6 +4,7 @@
 } */
 .aboutUsWrapper{
     font-family: Arial, sans-serif;
+    width: 100%;
 }
 .aboutUsTitle{
     justify-content: center;
@@ -183,4 +184,82 @@
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* Desktop-first styles (yours) above ... */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .aboutUsTitle {
+    margin: 0 1rem;
+    text-align: center;
+  }
+
+  .aboutUsTitle h1 {
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+  }
+
+  .aboutUsTitle h2 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .aboutUsTitle p {
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .aboutUsSection {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .visionSection,
+  .missionSection,
+  .valuesSection {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .valuesSection ul {
+    text-align: center;
+  }
+
+  .aboutUsLocation {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .aboutUsLocation h1 {
+    font-size: 1.5rem;
+  }
+
+  .aboutUsLocation p {
+    font-size: 1rem;
+  }
+
+  .teamSection {
+    margin: 2rem 1rem;
+  }
+
+  .teamSection h2 {
+    font-size: 2rem;
+  }
+
+  .teamMembers {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .teamMember img {
+    width: 120px;
+    height: 120px;
+  }
 }

@@ -112,3 +112,93 @@
 .imageSlice:nth-child(3) {
   z-index: 30;
 }
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .landingWrapper {
+    flex-direction: column;
+    padding: 2rem 2rem;
+    min-height: auto; /* let height adjust */
+    gap: 2rem;
+  }
+
+  .textSection {
+    max-width: 100%;
+    flex: none;
+    text-align: center;
+  }
+
+  .textSection h1 {
+    font-size: 3.5rem;
+  }
+
+  .descriptionList li {
+    font-size: 1.5rem;
+  }
+
+  .textSection p {
+    font-size: 1.2rem;
+  }
+
+  .exploreButton {
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .imageGroup {
+    flex: none;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .imageSlice {
+    width: 280px;
+    height: 600px;
+    margin-left: -80;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .landingWrapper {
+    padding: 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .textSection h1 {
+    font-size: 2.5rem;
+  }
+
+  .descriptionList li {
+    font-size: 1.2rem;
+  }
+
+  .textSection p {
+    font-size: 1rem;
+  }
+
+  .exploreButton {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .imageGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .imageSlice {
+    width: 180px;
+    height: 400px;
+    margin-left: 0;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+}

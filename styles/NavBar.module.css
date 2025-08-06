@@ -31,3 +31,64 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143
   display: block;
   padding: 0;
 }
+
+/* NavBar.module.css */
+
+.navbar {
+  background: #ffffff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(99, 219, 143, 1) 44%,
+    rgba(4, 99, 7, 1) 100%
+  );
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and nav right */
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+  color: #4df452;
+}
+
+.logo {
+  display: block;
+  padding: 0;
+}
+
+/* 📱 Mobile Styles - Keep structure, just shrink */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem; /* Less padding */
+    font-size: 1.2rem; /* Slightly smaller text */
+  }
+
+  .navLinks {
+    gap: 1rem; /* Reduce space between links */
+  }
+
+  .navLink {
+    font-size: 1rem; /* Smaller font */
+  }
+
+  .logo img {
+    max-width: 120px; /* Shrink logo if it's an image */
+    height: auto;
+  }
+}
+
+

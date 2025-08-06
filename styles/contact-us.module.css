@@ -1,16 +1,14 @@
-/* :global(body) {
-  padding: 0;
-  margin: 0;
-} */
-.contactUsWrapper{
+.contactUsWrapper {
   font-family: Arial, sans-serif;
+  width: 100%;
 }
+
 .contactWrapper {
   max-width: 500px;
   margin: 3rem auto;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(4,99,7,0.08);
+  box-shadow: 0 2px 16px rgba(4, 99, 7, 0.08);
   padding: 2.5rem 2rem;
   height: 91%;
 }
@@ -74,4 +72,57 @@
 
 .submitButton:hover {
   background: #128c7e;
+}
+
+/* 📱 Mobile Styles - Keep structure but fit screen better */
+@media (max-width: 768px) {
+  .contactWrapper {
+    margin: 2rem 1rem; /* Reduce side margins */
+    padding: 2rem 1.5rem; /* Less padding */
+  }
+
+  .contactTitle {
+    font-size: 1.5rem;
+  }
+
+  .contactInfo {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .inputField,
+  .textArea {
+    font-size: 0.95rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  .submitButton {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+/* 📱 Extra small devices (≤480px) */
+@media (max-width: 480px) {
+  .contactWrapper {
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .contactTitle {
+    font-size: 1.3rem;
+  }
+
+  .contactInfo {
+    font-size: 0.95rem;
+  }
+
+  .inputField,
+  .textArea {
+    font-size: 0.9rem;
+  }
+
+  .submitButton {
+    width: 100%; /* Button takes full width on tiny screens */
+  }
 }

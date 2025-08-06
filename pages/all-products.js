@@ -79,7 +79,7 @@ export default function AllProducts() {
                       alt={product.name}
                       width={250}
                       height={300}
-                      objectFit="fit"
+                      style={{ objectFit: 'cover' }}
                     />
                   </div>
                   <h3>{product.name}</h3>
