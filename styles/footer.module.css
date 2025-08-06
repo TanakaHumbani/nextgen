@@ -153,6 +153,27 @@
   }
 
   .socialIcons li {
-    margin-left: 3px;
+   margin: 1rem ;
+  }
+  .socialIcons{
+    justify-content: center;
+    align-items: center;
+  }
+  .footerSocial{
+    justify-content: center;
+    align-items: center;
+  }
+  .footerSocial h3{
+    text-align: center;
+  }
+  .footerContent{
+    justify-content: center;
+    align-items: center;
+  }
+  .footerContent h3{
+    text-align: center;
+  }
+  .footerLinks h3{
+    text-align: center;
   }
 }

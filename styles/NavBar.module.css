@@ -38,7 +38,7 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143
   background: #ffffff;
   background: linear-gradient(
     90deg,
-    rgba(255, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 1) 17%,
     rgba(99, 219, 143, 1) 44%,
     rgba(4, 99, 7, 1) 100%
   );
@@ -73,8 +73,14 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143
 /* 📱 Mobile Styles - Keep structure, just shrink */
 @media (max-width: 768px) {
   .navbar {
+    background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 35%,
+    rgba(99, 219, 143, 1) 44%,
+    rgba(4, 99, 7, 1) 100%
+  );
     padding: 1rem; /* Less padding */
-    font-size: 1.2rem; /* Slightly smaller text */
+    font-size: 0.9rem; /* Slightly smaller text */
   }
 
   .navLinks {
@@ -82,7 +88,7 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143
   }
 
   .navLink {
-    font-size: 1rem; /* Smaller font */
+    font-size: 0.7rem; /* Smaller font */
   }
 
   .logo img {
@@ -91,4 +97,26 @@ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 17%, rgba(99, 219, 143
   }
 }
 
+/* 📱 Mobile Phones - ≤480px */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.8rem; /* Smaller padding */
+    font-size: 0.8rem; /* Slightly smaller overall font */
+    text-align: center;
+  }
+
+  .navLinks {
+    gap: 0.5rem; /* Tighten spacing */
+    margin-top: 0.5rem;
+  }
+
+  .navLink {
+    font-size: 0.75rem; /* Smaller font size for links */
+  }
+
+  .logo img {
+    max-width: 100px; /* Shrink logo more on mobile */
+    height: auto;
+  }
+}
 

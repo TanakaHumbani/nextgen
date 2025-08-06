@@ -263,3 +263,86 @@
     height: 120px;
   }
 }
+/* 📱 Mobile styles */
+@media (max-width: 480px) {
+  .aboutUsTitle {
+    margin: 0 0.5rem;
+  }
+
+  .aboutUsTitle h1 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0 0.8rem 0;
+  }
+
+  .aboutUsTitle h2 {
+    font-size: 1.3rem;
+    margin: 0.8rem 0;
+  }
+
+  .aboutUsTitle p {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .aboutUsSection {
+    flex-direction: column;
+    padding: 0.8rem;
+    gap: 0.8rem;
+  }
+
+  .visionSection,
+  .missionSection,
+  .valuesSection {
+    width: 100%;
+    height: auto;
+    /* padding: 0.8rem; */
+    margin: 1.5rem 0;
+  }
+
+  .valuesSection li {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+  }
+
+  .aboutUsLocation {
+    width: 400px;
+    height: auto;
+    padding: 0.8rem;
+    margin: auto;
+  }
+
+  .aboutUsLocation h1 {
+    font-size: 1.3rem;
+  }
+
+  .aboutUsLocation p {
+    font-size: 0.95rem;
+  }
+
+  .teamSection {
+    width: 400px;
+    margin: auto;
+  }
+
+  .teamSection h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .teamMembers {
+    gap: 1rem;
+  }
+
+  .teamMember img {
+    width: 100px;
+    height: 100px;
+  }
+  .mapContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+}

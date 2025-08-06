@@ -159,7 +159,7 @@
   .imageSlice {
     width: 280px;
     height: 600px;
-    margin-left: -80;
+    margin-left: -80px;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   }
 }
@@ -167,6 +167,7 @@
 /* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .landingWrapper {
+    margin-top: 100px;
     padding: 1rem 1rem;
     gap: 1.5rem;
   }
@@ -190,7 +191,7 @@
   }
 
   .imageGroup {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 0.75rem;
   }
@@ -198,7 +199,7 @@
   .imageSlice {
     width: 180px;
     height: 400px;
-    margin-left: 0;
+    margin-left: -50px;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
   }
 }

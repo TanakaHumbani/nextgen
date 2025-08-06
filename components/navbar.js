@@ -6,6 +6,7 @@ export default function NavBar() {
   return (
     <nav className={styles.navbar}>
       <Image
+        priority="false"
         src="/images/company-logo.png"
         alt="Company Logo"
         width={140}
